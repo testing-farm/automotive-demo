@@ -1,0 +1,4 @@
+execute:
+    script:
+        - grep -i coreos /etc/os-release
+        - rpm -q rpm-ostree
